@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,42 +8,43 @@
     <title>Calculatrice</title>
 </head>
 <body>
-    <div>
-        <input type="button" class="calc.result">
-        <input type="button" class="calc" value="AC">
-    </div>
+    <div id="main">
 
-    <div>
         <div>
-        <input type="button" class="calc" value="7">
-        <input type="button" class="calc" value="8">
-        <input type="button" class="calc" value="9">
+            <input type="input" class="calc-result">
         </div>
 
         <div>
-        <input type="button" class="calc" value="4">       
-        <input type="button" class="calc" value="5">    
-        <input type="button" class="calc" value="6">
-        </div>
+            <div>
+                <input type="button" class="calc" value="7">
+                <input type="button" class="calc" value="8">
+                <input type="button" class="calc" value="9">
+                <input type="button" class="calc" value="AC">
+            </div>
 
-        <div>
-        <input type="button" class="calc" value="1">    
-        <input type="button" class="calc" value="2">
-        <input type="button" class="calc" value="3">
+            <div>
+                <input type="button" class="calc" value="4">       
+                <input type="button" class="calc" value="5">    
+                <input type="button" class="calc" value="6">
+                <input type="button" class="calc" value="*">
+            </div>
+
+            <div>
+                <input type="button" class="calc" value="1">    
+                <input type="button" class="calc" value="2">
+                <input type="button" class="calc" value="3">
+                <input type="button" class="calc" value="/">
+            </div>
+            <div>
+                <input type="button" class="calc" value="0">    
+                <input type="button" class="calc" value="+">
+                <input type="button" class="calc" value="-">
+                <input type="button" class="calc" value="=">
+            </div>    
         </div>
-    </div>
-    
-    <div>
-    <input type="button" class="calc" value="x">    
-    <input type="button" class="calc" value="/">
-    </div>
-    <div>
-    <input type="button" class="calc" value="+">    
-    <input type="button" class="calc" value="-">
-    </div>
-    
-    <input type="button" class="calc" value="=">    
-            
+    </div>            
     
 </body>
+<script src="calculator.js"></script>
+
 </html>
