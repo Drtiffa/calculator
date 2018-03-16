@@ -8,14 +8,39 @@ body {
 	margin: auto;
 }
 
-input[type="button"] {
-	width: 40px;
+.calc {
+	width: 65px;
+	height: 65px;
 	margin-right: 2px;
 	margin-bottom: 4px;
+	font-size: 40px;
+	font-family: 'Limelight', cursive;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
 }
 
 input[type="input"] {
-	width: 175px;
-	margin-bottom: 6px;
+	width: 190px;
+	margin: 30px 65px;
+	padding: 50px;
+	font-size: 50px;
+	border-width: 2px;
+	border-style: solid;
+	font-family: 'Limelight', cursive;
 }
 
+#main {
+	background-color: #c23616;
+	border-width: 5px;
+	border-style: solid;
+	box-shadow: 10px 5px 5px black;
+}
+
+.block {
+	padding: 50px;
+}
+
+.btns {
+	margin: 0 20px;
+}

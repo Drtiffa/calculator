@@ -1,20 +1,20 @@
 var matches = document.querySelectorAll(".calc");
-var input = document.querySelector(".calc-result");
+var button = document.querySelector(".calc-result");
 
 matches.forEach(function(element) {
-  element.addEventListener("click", changeInput, false)
+  element.addEventListener("click", changeButton, false)
 })
 
-function changeInput() {	
+function changeButton() {	
 	/*We reset the input if button value = AC*/
 	if (this.value === 'AC') {
-		input.value = '';
+		button.value = '';
 	}
 	else if (this.value === '=') {
-		input.value = calculation(input.value);
+		button.value = calculation(button.value);
 	}
 	else {
-		input.value += this.value;
+		button.value += this.value;
 	}	
 }
 
